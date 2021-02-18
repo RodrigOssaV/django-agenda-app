@@ -25,3 +25,10 @@ myroot/componentes/__pycache__/urls.cpython-39.pyc
 myroot/componentes/__pycache__/models.cpython-39.pyc
 myroot/componentes/__pycache__/admin.cpython-39.pyc
 myroot/componentes/__pycache__/__init__.cpython-39.pyc
+myroot/accounts/__pycache__/__init__.cpython-39.pyc
+myroot/accounts/__pycache__/admin.cpython-39.pyc
+myroot/accounts/__pycache__/models.cpython-39.pyc
+myroot/accounts/__pycache__/urls.cpython-39.pyc
+myroot/accounts/__pycache__/views.cpython-39.pyc
+myroot/accounts/__pycache__/forms.cpython-39.pyc
+myroot/accounts/migrations/__pycache__/__init__.cpython-39.pyc

@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
-from django.urls import reverse
+from django.contrib.auth.decorators import login_required
 
 from .forms import CreateUserForm
 
@@ -27,13 +27,16 @@ def loginPage(request):
         user = authenticate(request, username=username, password=password)
         if user is not None:
             login(request, user)
-            return redirect('home')
+            return redirect('profile')
         else:
             messages.info(request, 'Username OR password is incorrect')
-
     context = {}
     return render(request, 'login.html', context)
 
 def logoutUser(request):
     logout(request)
-    return reverse('accounts:login')
+    return redirect('../')
+
+@login_required(login_url='login')
+def profilePage(request):
+    return render(request, 'profile.html', {})

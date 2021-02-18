@@ -16,3 +16,12 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+myroot/myroot/__pycache__/wsgi.cpython-39.pyc
+myroot/myroot/__pycache__/urls.cpython-39.pyc
+myroot/myroot/__pycache__/settings.cpython-39.pyc
+myroot/myroot/__pycache__/__init__.cpython-39.pyc
+myroot/componentes/__pycache__/views.cpython-39.pyc
+myroot/componentes/__pycache__/urls.cpython-39.pyc
+myroot/componentes/__pycache__/models.cpython-39.pyc
+myroot/componentes/__pycache__/admin.cpython-39.pyc
+myroot/componentes/__pycache__/__init__.cpython-39.pyc
